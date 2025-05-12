@@ -1,0 +1,11 @@
+[target.x86_64-unknown-linux-musl] # 也支持[build]节点 设置target=...
+linker = "x86_64-linux-musl-gcc"
+
+name = "hello_cargo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+solana-client = "2.2.7"
+solana-sdk = "2.2.2"
+solana-transaction-status = "2.2.7"
