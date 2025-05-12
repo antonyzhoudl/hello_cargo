@@ -8,7 +8,7 @@ use solana_transaction_status::{EncodedTransaction, UiTransactionEncoding, Encod
 fn main() {
     println!("Hello, world!");
     let rpc_client = RpcClient::new_with_commitment(
-        "127.0.0.1:10001".to_string(),
+        "http://localhost:10001".to_string(),
         solana_sdk::commitment_config::CommitmentConfig::confirmed()
     );
 
