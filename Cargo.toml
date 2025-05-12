@@ -1,9 +1,12 @@
 [package]
-name = "hello_cargo"
+name = "hello-cargo"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
 solana-client = "2.2.7"
 solana-sdk = "2.2.2"
-solana-transaction-status = "2.2.7"
+solana-transaction-status-client-types = "2.2.7"
+tokio = "1.45.0"
+anyhow = "1.0.98"
+
